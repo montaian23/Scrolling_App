@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_alignParentTop="true"
+    android:background="#FFC107"
+    android:rotationX="0"
+    android:translationX="0dp"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".ScrollingActivity"
+    tools:showIn="@layout/activity_scrolling">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#FFC107">
+
+            <ImageView
+                android:id="@+id/qbertImg"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:contentDescription="@string/qbertimg"
+                app:srcCompat="@drawable/arcade_qbert" />
+
+            <TextView
+                android:id="@+id/qbertText"
+                android:layout_width="213dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_vertical"
+                android:text="@string/qbertText"
+                android:textColor="#000000" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#000000">
+
+            <ImageView
+                android:id="@+id/tronImg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/tronimg"
+                android:cropToPadding="true"
+                app:srcCompat="@drawable/arcade_tron" />
+
+            <TextView
+                android:id="@+id/tronText"
+                android:layout_width="212dp"
+                android:layout_height="match_parent"
+                android:text="@string/tronText"
+                android:textColor="#FFC107" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#FFC107">
+
+            <ImageView
+                android:id="@+id/cosmicImg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:clickable="false"
+                android:contentDescription="@string/cosmicalienimg"
+                android:cropToPadding="false"
+                android:rotation="0"
+                app:srcCompat="@drawable/arcade_cosmica" />
+
+            <TextView
+                android:id="@+id/cosmicText"
+                android:layout_width="214dp"
+                android:layout_height="match_parent"
+                android:text="@string/cosmicText"
+                android:textColor="#000000" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#000000">
+
+            <ImageView
+                android:id="@+id/invadersImg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/invadersimg"
+                app:srcCompat="@drawable/arcade_invaders" />
+
+            <TextView
+                android:id="@+id/invadersText"
+                android:layout_width="212dp"
+                android:layout_height="match_parent"
+                android:text="@string/invadersText"
+                android:textColor="#FFC107" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/bugImg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#FFC107"
+                android:contentDescription="@string/jumpbugimg"
+                app:srcCompat="@drawable/arcade_jumpbug" />
+
+            <TextView
+                android:id="@+id/bugText"
+                android:layout_width="213dp"
+                android:layout_height="match_parent"
+                android:text="@string/bugText"
+                android:textColor="#000000" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#000000">
+
+            <ImageView
+                android:id="@+id/madImg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/madplanetsimg"
+                app:srcCompat="@drawable/arcade_mplanets" />
+
+            <TextView
+                android:id="@+id/madText"
+                android:layout_width="212dp"
+                android:layout_height="match_parent"
+                android:text="@string/madText"
+                android:textColor="#FFC107" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/nibblerImg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/nibblerimg"
+                app:srcCompat="@drawable/arcade_nibbler" />
+
+            <TextView
+                android:id="@+id/nibblerText"
+                android:layout_width="211dp"
+                android:layout_height="match_parent"
+                android:text="@string/nibblerText"
+                android:textColor="#000000" />
+        </TableRow>
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>

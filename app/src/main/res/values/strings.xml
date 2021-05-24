@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">ScrollingApp</string>
+    <string name="Title">Android Arcade Archives</string>
+    <string name="qbertText">Qbert: Gottlieb 1982</string>
+    <string name="tronText">Tron: Bally Midway 1981</string>
+    <string name="cosmicText">Cosmic Alien: Universal 1979</string>
+    <string name="nibblerText">Nibbler: Rockola 1982</string>
+    <string name="madText">Mad Planets: Gottlieb 1983</string>
+    <string name="invadersText">Space Invaders: Taito 1978</string>
+    <string name="bugText">Jump Bug: Rockola 1982</string>
+    <string name="action_settings">Settings</string>
+    <string name="tronImg">tronImg</string>
+    <string name="invadersImg">invadersImg</string>
+    <string name="bugImg">BugImg</string>
+    <string name="madImg">madImg</string>
+    <string name="nibblerImg">nibblerImg</string>
+    <string name="qbertImg">qbertImg</string>
+    <string name="cosmicImg">cosmicImg</string>
+</resources>
